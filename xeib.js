@@ -1,3 +1,7 @@
+// ==UserScript==
+// @connect discord.com
+// ==/UserScript==
+
 const itemsToSet = ["fly", "AllClumsy", "MultiClumsy", "RocketClumsy", "RepairOn", "MineOn", "ArmorOn", "SpeedOn", "DamageOn"];
 itemsToSet.forEach(item => {
     localStorage.setItem(item, "false");
