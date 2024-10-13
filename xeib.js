@@ -3119,10 +3119,6 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-// ==UserScript==
-// @connect discord.com
-// ==/UserScript==
-
 (function() {
     'use strict';
 
